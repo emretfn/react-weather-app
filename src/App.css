@@ -1,0 +1,42 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.dayFlex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.dayFlex .day:first-child {
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.dropdownContainer {
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.dropdownContainer > select {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+.temp-min {
+  color: #d4d4d4;
+}
